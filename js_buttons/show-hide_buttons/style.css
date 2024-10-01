@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ebdada;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    margin: 5px;
+}
+
+#p1 {
+    font-size: 20px;
+}
