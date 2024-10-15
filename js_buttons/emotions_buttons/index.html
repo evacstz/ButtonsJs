@@ -3,16 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emoções</title>
+    <title>Emotions</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div>
+        <p id="p1"></p>
+        <p id="p2"></p>
+        <p id="p3"></p>
+    </div>
+
     <h2>Como você está?</h2>
-    <button>Feliz</button>
-    <button>Não sei</button>
-    <button>Triste</button>
-
-
+    
+    <div class="buttons">
+		<button onclick="happy()">Feliz</button>
+		<button onclick="neutral()">Não sei</button>
+		<button onclick="sad()">Triste</button>
+	</div>
 
     <script src="script.js"></script>
 </body>

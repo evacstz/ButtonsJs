@@ -6,6 +6,7 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #ebdada;
+    color: white;
 }
 
 button {
@@ -13,6 +14,18 @@ button {
     height: 50px;
     font-size: 15px;
     margin: 5px;
+    border-radius: 25px;
+    border: 2px solid #ffb2c7;
+    border: 2px solid #ffb2c7;
+    background-color: white;
+    color: #ffb2c7;
+    transition: transform 0.1s ease, background-color 0.3s ease;
+}
+
+button:active {
+    transform: scale(0.95);
+    background-color: #ffb2c7;
+    color: white;
 }
 
 #p1 {
