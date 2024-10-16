@@ -1,6 +1,8 @@
 function calcular() {
-    let peso = document.getElementById('peso').value;
-    let altura = document.getElementById('altura').value;
-    // alert('O valor digitado foi:' + peso + altura);
-    // console.log('peso + altura');
+    let peso = parseFloat(document.getElementById('peso').value);
+    let altura = parseFloat(document.getElementById('altura').value);  
+
+    let imc = peso / (altura * altura);
+
+    document.getElementById('resultado').innerHTML = 'Seu IMC é:' + imc.toFixed(2);
 }

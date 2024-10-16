@@ -36,8 +36,10 @@ button {
     border-radius: 15px;
     border: 1px solid #bf597f;
     margin: 15px;
+
     color: #bf597f;
     background-color: white;
+
     font-family: "Afacad Flux", sans-serif;
     transition: transform 0.1s ease, background-color 0.3s ease;
 }
@@ -52,4 +54,10 @@ button:active {
     color: #e58aac;
     font-family: "Afacad Flux", sans-serif;
     text-align: center;
+}
+
+p {
+    border: 1px solid #bf597f;
+    border-radius: 3px;
+    margin: 0;
 }
