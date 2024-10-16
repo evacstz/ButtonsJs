@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+
+    background-color: #efd5df;
+    color: #bf597f;
+}
+
+#info {
+    background-color: #f7eaef;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 0 0 4px #bf597f;
+    font-family: "Afacad Flux", sans-serif;
+}
+
+input {
+    border-radius: 15px;
+    border: 1px solid #bf597f;
+    color: #bf597f;
+    margin: 5px;
+    font-size: 10px;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #bf597f; 
+}
+
+button {
+    border-radius: 15px;
+    border: 1px solid #bf597f;
+    margin: 15px;
+    color: #bf597f;
+    background-color: white;
+    font-family: "Afacad Flux", sans-serif;
+    transition: transform 0.1s ease, background-color 0.3s ease;
+}
+
+button:active {
+    transform: scale(0.95);
+    background-color: #bf597f;
+    color: white;
+}
+
+::placeholder {
+    color: #e58aac;
+    font-family: "Afacad Flux", sans-serif;
+    text-align: center;
+}
