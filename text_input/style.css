@@ -28,7 +28,7 @@ input {
 }
 
 input:focus {
-    outline: none;
+    outline: 0.5px solid #bf597f;
     border: 1px solid #bf597f; 
 }
 
@@ -45,8 +45,8 @@ button {
 
     color: #bf597f;
     background-color: white;
-
     font-family: "Afacad Flux", sans-serif;
+    
     transition: transform 0.1s ease, background-color 0.3s ease;
 }
 
