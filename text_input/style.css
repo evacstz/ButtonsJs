@@ -32,6 +32,12 @@ input:focus {
     border: 1px solid #bf597f; 
 }
 
+::placeholder {
+    color: #e58aac;
+    font-family: "Afacad Flux", sans-serif;
+    text-align: center;
+}
+
 button {
     border-radius: 15px;
     border: 1px solid #bf597f;
@@ -50,14 +56,12 @@ button:active {
     color: white;
 }
 
-::placeholder {
-    color: #e58aac;
-    font-family: "Afacad Flux", sans-serif;
-    text-align: center;
+#result {
+    border: 1px solid #bf597f;
+    border-radius: 3px;
 }
 
 p {
-    border: 1px solid #bf597f;
-    border-radius: 3px;
     margin: 0;
+    display: inline;
 }
