@@ -1,12 +1,10 @@
-function verifica(numero) {
+function verifica() {
+    let numero = parseInt(document.getElementById('numero').value);
     if (numero % 2 === 0) {
-        console.log(numero + 'é par.');
-    } 
-    else {
-        console.log(numero = 'é ímpar.');
+        document.getElementById('result').innerHTML = numero + ' é par.'
+        // console.log(numero + ' é par.');
+    } else {
+        document.getElementById('result').innerHTML = numero + ' é ímpar.'
+        // console.log(numero + ' é ímpar.');
     }
 }
-
-let numero = parseInt(document.getElementById('numero').value);
-
-// cansei faço isso depois
